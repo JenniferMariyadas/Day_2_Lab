@@ -14,6 +14,10 @@
 #   return x * y
 # end
 
-def divide(x,y)
-  return x /y
-end
+# def divide(x,y)
+#   return x /y
+# end
+
+def length_of_string(my_string)
+  return my_string.length
+end 
