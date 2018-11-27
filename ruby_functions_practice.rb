@@ -30,8 +30,26 @@
 #   return x.to_i + y.to_i
 # end
 
-def number_to_full_name__month_1(month_one)
-  if month_one == 1
+# def number_to_full_month_name(month_one)
+#   if month_one == 1
+#     return "January"
+#   end
+# end
+
+
+# def number_to_full_month_name(month_three)
+#   if month_three ==3
+#     return "March"
+#   end
+# end
+
+def number_to_full_month_name(month_number)
+  if month_number == 1
     return "January"
+  elsif month_number == 3
+    return "March"
+  elsif month_number == 9
+    return "September"
+
   end
 end
